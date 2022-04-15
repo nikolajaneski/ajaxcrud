@@ -26,5 +26,10 @@ Route::get('/getEmployees', [EmployeeController::class, 'getEmployees']);
 
 Route::post('/insertEmployee', [EmployeeController::class, 'insertEmployee']);
 
+Route::post('/deleteEmployee', [EmployeeController::class, 'deleteEmployee']);
+
+Route::post('/updateEmployee', [EmployeeController::class, 'updateEmployee']);
+
+Route::get('/getEmployee', [EmployeeController::class, 'getEmployee']);
 
 
